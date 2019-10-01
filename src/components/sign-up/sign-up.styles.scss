@@ -1,0 +1,46 @@
+.sign-up{
+    
+    width: 50rem;
+    padding: 10rem;
+    display: flex;
+    flex-direction: column;
+    
+    text-transform: uppercase;
+    text-align: center;
+    background: #f3f3f3;
+
+
+    .form{
+        
+        display: flex;
+        flex-direction: column;
+        
+
+        input[type='password'], input[type='email'], input[type='text']{
+            
+            font-size: 1.6rem;
+            letter-spacing: 2px;
+            padding: 2rem;
+            margin-bottom: 5px;
+            background: #f3f3f3;
+            border: none;
+            border-left: 3px solid #f3f3f3;
+            border-bottom: 1px solid black;
+            outline: none;
+            
+            &:focus{
+                // border-left: 3px solid green;
+                
+            }
+        }
+
+        .text-box{
+            resize: none;
+        }
+    }
+    .custom-button{
+        margin-top: 2rem;
+    }
+        
+
+}

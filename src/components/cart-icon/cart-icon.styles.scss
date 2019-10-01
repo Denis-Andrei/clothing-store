@@ -1,0 +1,27 @@
+.cart{
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    .cart-icon{
+        width: 3rem;
+    }
+    .item-count{
+        position: absolute;
+        color: green;
+        font-size: 12px;
+        letter-spacing: 0;
+        bottom: 12px;
+        @media only screen and(max-width: 600px) {
+            font-size: 10px;
+            bottom: 15px;
+        }
+
+    }
+    .item-count-red{
+        color: red;
+    }
+}

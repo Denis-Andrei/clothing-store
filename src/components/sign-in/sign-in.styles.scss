@@ -1,0 +1,45 @@
+.sign-in{
+    width: 50rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    .form{
+    
+        display: flex;
+        flex-direction: column;
+        
+
+        input[type='password'], input[type='email']{
+            font-size: 1.6rem;
+            letter-spacing: 2px;
+            padding: 2rem;
+            margin-bottom: 5px;
+            background: #f3f3f3;
+            border: none;
+            border-left: 3px solid #f3f3f3;
+            outline: none;
+
+            &:focus{
+                border-left: 3px solid green;
+                border-bottom: none;
+            }
+        }
+
+        .text-box{
+            resize: none;
+        }
+
+        // .buttons{
+        //     display: flex;
+        //     justify-content: stretch;
+        // }
+    }
+    .custom-button{
+        margin-top: 2rem;
+        
+    }
+        
+
+}

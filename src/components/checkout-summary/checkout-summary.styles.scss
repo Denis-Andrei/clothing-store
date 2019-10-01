@@ -1,0 +1,36 @@
+@import '../../assets/sass/variables';
+.checkout-summary{
+    background: #f3f3f3;
+    width: 35rem;
+    height: max-content;
+    
+    .summary-title{
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .shipping{
+        border-top: 1px solid #787878; 
+    }
+    .subtotal, .shipping, .total{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: .5rem 2rem;
+        text-transform: uppercase;
+        
+    }
+
+    .subtotal-title, .shipping-title, .total-title, .subtotal-price, .shipping-price, .total-price{
+        font-size: $default-font-size;
+        letter-spacing: 2px;
+    }
+
+
+
+    .total{
+        
+        background: green;
+        color: white;
+        
+    }
+}

@@ -1,0 +1,45 @@
+@import '../../assets/sass/variables';
+.search-dropdown-item{
+   
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    &:hover{
+        background: white;
+    }
+
+    .search-image{
+        margin: 2rem 2rem;
+        width: 10rem;
+        height: 10rem;
+        object-fit: cover;
+
+        @media only screen and(max-width: 1000px){
+            width: 8rem;
+            height: 8rem;
+        }
+
+        @media only screen and(max-width: 600px){
+            width: 6rem;
+            height: 6rem;
+        }
+
+    }
+
+    .item-info{
+            font-size: 1.4rem;
+    }
+
+    .custom-button{
+        margin-right: 2rem;
+        font-size: 1.2rem;
+        padding: 5px;
+        min-width: 7rem;
+
+        
+    }
+    
+   
+}

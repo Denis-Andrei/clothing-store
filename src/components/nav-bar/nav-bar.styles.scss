@@ -1,0 +1,30 @@
+@import '../../assets/sass/variables';
+
+.nav-bar{
+    width: 80%;
+    margin: 3rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    .logo{
+        font-size: 4rem;
+        font-weight: 900;
+        color: #787878;
+        text-decoration: none;
+    }
+    .options{
+        
+        font-size: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .option{
+            text-decoration: none;
+            color: black;
+            margin: 0 2rem;
+        }
+    }
+}

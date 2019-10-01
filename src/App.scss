@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+
+  @media only screen and(max-width: 1400px){
+    font-size: 55%;
+  }
+
+  @media only screen and(max-width: 1000px){
+    font-size: 50%;
+  }
+
+  @media only screen and(max-width: 600px){
+    font-size: 40%;
+  }
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 3px;
+}

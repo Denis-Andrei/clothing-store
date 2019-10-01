@@ -1,0 +1,15 @@
+$default-font-size: 1.6rem;
+
+@mixin ProductTitle {
+    font-size: 2rem;
+    // font-weight: 400;
+    // font-family: 'Roboto Mono', monospace;
+    color: black;
+    letter-spacing: 5px;
+}
+
+@mixin ProductPrice {
+    font-size: $default-font-size;
+    color: #787878;
+    margin: 0;
+}

@@ -1,0 +1,33 @@
+@import '../../assets/sass/variables';
+.sales-card{
+    width: 30rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background: #f3f3f37d;
+    text-align: center;
+
+    .title{
+        margin: 7rem auto;
+        h3{
+            
+            margin: 0;
+            font-size: 2.5rem;
+        }
+    
+        h1{
+            margin: 0;
+            font-size: 6rem;
+            color: #CD0404;
+        }
+    }
+    a{
+        text-decoration: none;
+        button{
+            margin: 0 auto;
+        }
+    }
+    
+    
+}

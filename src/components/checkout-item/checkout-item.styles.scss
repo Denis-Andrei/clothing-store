@@ -1,0 +1,73 @@
+@import '../../assets/sass/variables';
+.checkout-item{
+    font-size: $default-font-size;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    border-bottom: 1px solid #f3f3f3;
+    
+
+    .checkout-image{
+        margin: 2rem 2rem;
+        width: 10rem;
+        height: 10rem;
+        object-fit: cover;
+
+    }
+
+    .item{
+        display: flex;
+
+        .item-info{
+            width: 20rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h3{
+                font-weight: 500;
+            }
+        }
+    }
+
+    .item-quantity{
+        display: flex;
+        align-items: center;
+        
+
+        .sign-minus, .sign-plus{
+            width: 2.5rem;
+            font-size: 2.5rem;
+            text-align: center;
+            cursor: pointer;
+            user-select: none;
+
+            &:active{
+                font-size: 2.3rem;
+            }
+        }
+        .sign-minus{
+            color: rgb(230, 90, 90);
+        }
+        .sign-plus{
+            color: rgb(97, 190, 97);
+        }
+
+        .quantity{
+            margin: 0 1rem;
+        }
+    }
+
+    .total-price{
+        font-size: 2rem;
+        width: 10rem;
+    }
+   
+    .x-mark{
+        color: rgb(255, 0, 0);
+        cursor: pointer;
+        font-size: 2.5rem;
+        user-select: none;
+    }
+}

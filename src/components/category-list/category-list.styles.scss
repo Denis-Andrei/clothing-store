@@ -1,0 +1,13 @@
+.category-list{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 150rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+    .custom-button{
+        display: none;
+    }
+}

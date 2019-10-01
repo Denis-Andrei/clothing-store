@@ -1,0 +1,29 @@
+@import '../../assets/sass/variables';
+
+.category-card{
+    position: relative;
+    flex-shrink: 2;
+    flex-grow: 1;
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-basis: 30rem;
+    &:hover{
+        opacity: 0.8;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    .item-title{
+        @include ProductTitle;
+    }
+    img{
+        width: 35rem;
+        height: 40rem;
+        object-fit: cover;
+        
+    }
+}

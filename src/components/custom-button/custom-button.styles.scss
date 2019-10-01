@@ -1,0 +1,40 @@
+@import '../../assets/sass/variables';
+
+    
+    .custom-button{
+        background: black;
+        color: white;
+        padding: 1rem 3rem;
+        font-size: $default-font-size;
+        font-family: inherit;
+        outline: none;
+        border: 2px solid transparent;
+        cursor: pointer;
+        // display: flex;
+        // justify-content: center;
+        
+
+        &:hover{
+            background: white;
+            color: black;
+            border: 2px solid black;
+            
+        }
+        
+    }
+    .no-border{
+        border: none;
+        &:hover{
+            border: none;
+        }
+    }
+
+    .inverted{
+        background: white;
+        color: black;
+        &:hover{
+            color: white;
+            background: black;
+        }
+    }
+    

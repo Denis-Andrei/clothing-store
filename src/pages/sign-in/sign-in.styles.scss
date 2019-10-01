@@ -1,0 +1,15 @@
+.sign-in-page{
+
+    .sign-in-container{
+        width: 80%;
+        margin: 5rem auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        
+        @media only screen and(max-width: 1000px){
+            flex-direction: column;
+        }
+    }
+}

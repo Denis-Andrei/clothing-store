@@ -1,0 +1,36 @@
+@import '../../assets/sass/variables';
+.about{
+    color: white;
+    text-align: center;
+
+    .info{
+        
+        width: 80%;
+        margin: 0 auto;
+        letter-spacing: 4px;
+        background: #000000a4; 
+
+        @media only screen and(max-width: 600px){
+            width: 100%;
+            letter-spacing: 3px;
+        }
+
+        .about-h1{
+            font-size: 5rem;
+            font-weight: 400;
+            padding-top: 5rem;
+        }
+        .about-p{
+            font-size: 2rem;
+            line-height: 3rem;
+            font-weight: 300;
+            padding: 10rem;
+            margin-bottom: 0;
+
+            @media only screen and(max-width: 600px){
+                padding: 2rem;
+            }
+        }
+    }
+    
+}
