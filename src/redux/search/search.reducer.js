@@ -1,7 +1,8 @@
 import SearchActionTypes from './search.types';
 
 const INITIAL_STATE = {
-    inputValue: ''
+    inputValue: '',
+    hidden: true
 }
 
 const searchReducer = (state=INITIAL_STATE, action) =>{
@@ -10,7 +11,13 @@ const searchReducer = (state=INITIAL_STATE, action) =>{
             return{
                 ...state,
                 inputValue: action.payload
-            }    
+            }
+        case SearchActionTypes.TOGGLE_SEARCH_HIDDEN:
+            return{
+                ...state,
+                hidden: !state.hidden,
+                inputValue: ''
+            }       
         default:
             return state;
     }

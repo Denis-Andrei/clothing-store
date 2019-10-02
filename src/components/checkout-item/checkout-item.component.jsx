@@ -19,9 +19,9 @@ const CheckoutItem = ({item, clearItem, addItem, removeItem}) =>{
             </div> 
             
             <div className="item-quantity">
-                <div onClick={ () => removeItem(item)} className="sign-minus">&#8722;</div>
-                    <span className="quantity">{quantity}</span>
                 <div onClick={ () => addItem(item)} className="sign-plus">&#43;</div>
+                    <span className="quantity">{quantity}</span>
+                <div onClick={ () => removeItem(item)} className="sign-minus">&#8722;</div>
             </div>
 
             <div className="total-price">

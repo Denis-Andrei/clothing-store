@@ -11,7 +11,7 @@ const Footer = () =>(
 
             <div className="footer-customers">
                 <h4 className='footer-h4'>Customers Care</h4>
-                <Link className='option' to='/'>Contact Us</Link>
+                <Link className='option' to='/contact'>Contact Us</Link>
                 <Link className='option' to='/'>Careers</Link>
                 <Link className='option' to='/'>Shipping</Link>
                 <Link className='option' to='/'>Returns</Link>
@@ -20,10 +20,9 @@ const Footer = () =>(
 
             <div className="footer-social-icons">
                 <h4 className='footer-h4'>Social Media</h4>
-                <Link className='option' to='/'>Twitter</Link>
-                <Link className='option' to='/'>Facebook</Link>
-                <Link className='option' to='/'>YouTube</Link>
-                <Link className='option' to='/'>Instagram</Link>
+                <a className='option' href='https://www.facebook.com' target='_blank' rel="noopener noreferrer">Facebook</a>
+                <a className='option' href='https://www.twitter.com' target='_blank' rel="noopener noreferrer">Twitter</a>
+                <a className='option' href='https://www.instagram.com' target='_blank' rel="noopener noreferrer">Instagram</a>
             </div>
 
             <div className="footer-quick-links">
@@ -31,7 +30,7 @@ const Footer = () =>(
                 <Link className='option' to='/shop/mens'>Mens</Link>
                 <Link className='option' to='/shop/womens'>Womens</Link>
                 <Link className='option' to='/shop/womens/accessories'>Accessories</Link>
-                <Link className='option' to='/sign-in'>Sign In</Link>
+                <Link className='option' to='/sign-up'>Sign Up</Link>
                 
             </div>
         </div>

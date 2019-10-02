@@ -59,7 +59,8 @@ class SignUp extends React.Component{
         return(
             <div className="sign-up">
         
-                <h1>Register Now</h1>
+                <h1 className='register-header'>Register Now</h1>
+
                 <form className='form' onSubmit={this.handleSubmit}>
                     <input type="text" 
                         name='displayName' 

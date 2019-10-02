@@ -3,7 +3,7 @@ import './sign-in.styles.scss';
 import CustomButton from '../custom-button/custom-button.component';
 
 import {auth, signInWithGoogle} from '../../firebase/firebase.utils';
-
+import {Link} from 'react-router-dom';  
 
 
 
@@ -63,8 +63,9 @@ class SignIn extends React.Component{
                     
                         <CustomButton type='submit' name={'sign in'} />
                         
-                    <p>Don't have an account? <a href=''>Sign Up</a></p>
+                    
                 </form>
+                <p>Don't have an account? <Link className='link' to='sign-up'>Sign Up</Link></p>
                 <CustomButton onClick={signInWithGoogle} name={'sign in with Google'}/> 
 
             </div>

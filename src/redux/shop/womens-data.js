@@ -8,36 +8,42 @@ const WOMENS_DATA = {
             {
                 id: 'w1',
                 title: 'Women T-shirt',
+                category: 'womens/t-shirts',
                 imageName: 't-shirt',
                 price: 20.00
             },
             {
                 id: 'w2',
                 title: 'Women T-shirt',
+                category: 'womens/t-shirts',
                 imageName: 't-shirt',
                 price: 20.00
             },
             {
                 id: 'w3',
                 title: 'Women T-shirt',
+                category: 'womens/t-shirts',
                 imageName: 't-shirt',
                 price: 200.00
             },
             {
                 id: 'w4',
                 title: 'Women T-shirt',
+                category: 'womens/t-shirts',
                 imageName: 't-shirt',
                 price: 100.00
             },
             {
                 id: 'w5',
                 title: 'Women T-shirt',
+                category: 'womens/t-shirts',
                 imageName: 'jeans-1',
                 price: 60.00
             },
             {
                 id: 'w6',
                 title: 'Women T-shirt',
+                category: 'womens/t-shirts',
                 imageName: 'jeans-1',
                 price: 60.00
             }
@@ -52,36 +58,42 @@ const WOMENS_DATA = {
             {
                 id: 'w7',
                 title: 'Blue Jeans',
+                category: 'womens/jeans',
                 imageName: 'jeans-1',
                 price: 20.00
             },
             {
                 id: 'w8',
                 title: 'Blue Jeans',
+                category: 'womens/jeans',
                 imageName: 'jeans-1',
                 price: 20.00
             },
             {
                 id: 'w9',
                 title: 'Blue Jeans',
+                category: 'womens/jeans',
                 imageName: 'jeans-1',
                 price: 20.00
             },
             {
                 id: 'w10',
                 title: 'Blue Jeans',
+                category: 'womens/jeans',
                 imageName: 'jeans-1',
                 price: 200.00
             },
             {
                 id: 'w11',
                 title: 'Blue Jeans',
+                category: 'womens/jeans',
                 imageName: 'jeans-1',
                 price: 60.00
             },
             {
                 id: 'w12',
                 title: 'Black Jacket',
+                category: 'womens/jeans',
                 imageName: 'jeans-1',
                 price: 60.00
             }
@@ -96,36 +108,42 @@ const WOMENS_DATA = {
             {
                 id: 'w13',
                 title: 'Black Jacket',
+                category: 'womens/jackets',
                 imageName: 'jeans-1',
                 price: 20.00
             },
             {
                 id: 'w14',
                 title: 'Black Jacket',
+                category: 'womens/jackets',
                 imageName: 'jeans-1',
                 price: 20.00
             },
             {
                 id: 'w15',
                 title: 'Black Jacket',
+                category: 'womens/jackets',
                 imageName: 'jeans-1',
                 price: 20.00
             },
             {
                 id: 'w16',
                 title: 'Black Jacket',
+                category: 'womens/jackets',
                 imageName: 'jeans-1',
                 price: 200.00
             },
             {
                 id: 'w17',
                 title: 'Black Jacket',
+                category: 'womens/jackets',
                 imageName: 'jeans-1',
                 price: 60.00
             },
             {
                 id: 'w18',
                 title: 'Black Jacket',
+                category: 'womens/jackets',
                 imageName: 'jeans-1',
                 price: 60.00
             }
@@ -140,36 +158,42 @@ const WOMENS_DATA = {
             {
                 id: 'w19',
                 title: 'White shoes',
+                category: 'womens/shoes',
                 imageName: 'jeans-1',
                 price: 20.00
             },
             {
                 id: 'w20',
                 title: 'White shoes',
+                category: 'womens/shoes',
                 imageName: 'jeans-1',
                 price: 20.00
             },
             {
                 id: 'w21',
                 title: 'White shoes',
+                category: 'womens/shoes',
                 imageName: 'jeans-1',
                 price: 20.00
             },
             {
                 id: 'w22',
                 title: 'White shoes',
+                category: 'womens/shoes',
                 imageName: 'jeans-1',
                 price: 200.00
             },
             {
                 id: 'w23',
                 title: 'White shoes',
+                category: 'womens/shoes',
                 imageName: 'jeans-1',
                 price: 60.00
             },
             {
                 id: 'w24',
                 title: 'Black Jacket',
+                category: 'womens/shoes',
                 imageName: 'jeans-1',
                 price: 60.00
             }
@@ -184,36 +208,42 @@ const WOMENS_DATA = {
             {
                 id: 'w25',
                 title: 'Black bags',
+                category: 'womens/bags',
                 imageName: 'jeans-1',
                 price: 20.00
             },
             {
                 id: 'w26',
                 title: 'Black bags',
+                category: 'womens/bags',
                 imageName: 'jeans-1',
                 price: 20.00
             },
             {
                 id: 'w27',
                 title: 'Black bags',
+                category: 'womens/bags',
                 imageName: 'jeans-1',
                 price: 20.00
             },
             {
                 id: 'w28',
                 title: 'Black bags',
+                category: 'womens/bags',
                 imageName: 'jeans-1',
                 price: 200.00
             },
             {
                 id: 'w29',
                 title: 'Black bags',
+                category: 'womens/bags',
                 imageName: 'jeans-1',
                 price: 60.00
             },
             {
                 id: 'w30',
                 title: 'Black Jacket',
+                category: 'womens/bags',
                 imageName: 'jeans-1',
                 price: 60.00
             }
@@ -228,36 +258,42 @@ const WOMENS_DATA = {
             {
                 id: 'w31',
                 title: 'Black accessories',
+                category: 'womens/accessories',
                 imageName: 'jeans-1',
                 price: 20.05
             },
             {
                 id: 'w32',
                 title: 'Black accessories',
+                category: 'womens/accessories',
                 imageName: 'jeans-1',
                 price: 20.00
             },
             {
                 id: 'w33',
                 title: 'Black accessories',
+                category: 'womens/accessories',
                 imageName: 'jeans-1',
                 price: 20.00
             },
             {
                 id: 'w34',
                 title: 'Black accessories',
+                category: 'womens/accessories',
                 imageName: 'jeans-1',
                 price: 20.0
             },
             {
                 id: 'w35',
                 title: 'red',
+                category: 'womens/accessories',
                 imageName: 'jeans-1',
                 price: 60.00
             },
             {
                 id: 'w36',
                 title: 'LASTWOMEN LASTWOMEN',
+                category: 'womens/accessories',
                 imageName: 'jeans-1',
                 price: 60.00
             }

@@ -14,19 +14,31 @@
         height: 10rem;
         object-fit: cover;
 
+        
+
     }
 
     .item{
         display: flex;
 
         .item-info{
-            width: 20rem;
+            width: 18rem;
             display: flex;
             flex-direction: column;
             justify-content: center;
+            
 
-            h3{
+            
+            .item-title{
                 font-weight: 500;
+
+                @media only screen and(max-width: 600px){
+                    font-size: 1.4rem;
+                }
+            }
+
+            .item-price{
+                margin: 0;
             }
         }
     }
@@ -35,6 +47,9 @@
         display: flex;
         align-items: center;
         
+        @media only screen and(max-width: 600px){
+            flex-direction: column;
+        }
 
         .sign-minus, .sign-plus{
             width: 2.5rem;
@@ -62,6 +77,7 @@
     .total-price{
         font-size: 2rem;
         width: 10rem;
+        text-align: center;
     }
    
     .x-mark{
@@ -69,5 +85,9 @@
         cursor: pointer;
         font-size: 2.5rem;
         user-select: none;
+
+        @media only screen and(max-width: 600px){
+            font-size: 1.6rem;
+        }
     }
 }

@@ -10,8 +10,8 @@ const Jumbotron = () =>(
     <div className="jumbotron" 
         style={{backgroundImage: `url(${Background})`,
         backgroundRepeat: 'no-repeat',
-        backgroundSize: 'auto',
-        backgroundPosition: 'center'
+        backgroundSize: 'contain',
+        backgroundPosition: 'bottom center'
         
         }}
     >

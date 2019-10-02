@@ -4,6 +4,10 @@
     margin: 5rem auto;
     display: flex;
     justify-content: space-between;
+
+    @media only screen and(max-width: 900px){
+        flex-direction: column;
+    }
     
     .pay-info{
         display: flex;

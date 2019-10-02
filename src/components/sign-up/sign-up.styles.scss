@@ -1,15 +1,17 @@
 .sign-up{
     
     width: 50rem;
-    padding: 10rem;
+    padding: 5rem 10rem;
     display: flex;
     flex-direction: column;
-    
+    align-items: space-between;
     text-transform: uppercase;
     text-align: center;
     background: #f3f3f3;
 
-
+    .register-header{
+        margin-bottom: 5rem;
+    }
     .form{
         
         display: flex;
@@ -29,8 +31,8 @@
             outline: none;
             
             &:focus{
-                // border-left: 3px solid green;
-                
+                border-left: 3px solid green;
+                border-bottom: 1px solid #f3f3f3;
             }
         }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch , Route} from 'react-router-dom';
+import { Switch , Route, Redirect} from 'react-router-dom';
 import './App.scss';
 import TopBar from './components/top-bar/top-bar.component';
 import NavBar from './components/nav-bar/nav-bar.component';
@@ -13,6 +13,7 @@ import ContactPage from './pages/contact/contact.component';
 import SignInPage from './pages/sign-in/sign-in.component';
 
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
+import SignUpPage from './pages/sign-up/sign-up.component';
 
 
 class App extends React.Component {
@@ -21,12 +22,14 @@ class App extends React.Component {
 
     this.state = {
       currentUser: null
+     
     }
   }
 
   unsubscribeFromAuth = null;
 
   componentDidMount(){
+    window.scrollTo(0,0);
     this.unsubscribeFromAuth =auth.onAuthStateChanged(async userAuth => {
       if(userAuth) {
         const userRef = await createUserProfileDocument(userAuth);
@@ -38,7 +41,7 @@ class App extends React.Component {
               ...snapShot.data()
             }
           });
-          // console.log(this.state)
+         
         })
         
       }
@@ -47,6 +50,8 @@ class App extends React.Component {
 
       
     })
+
+    
   }
 
   componentWillUnmount(){
@@ -64,8 +69,9 @@ class App extends React.Component {
             <Route  path='/shop' component={ShopPage} />
             <Route exact path='/checkout' component={CheckoutPage} />
             <Route exact path='/contact' component={ContactPage} />
-            <Route exact path='/sign-in' component={SignInPage} />
-  
+            <Route exact path='/sign-in' render={ ()=> this.state.currentUser ? (<Redirect to='/' />) : (<SignInPage />) } />
+            <Route exact path='/sign-up' render={ ()=> this.state.currentUser ? (<Redirect to='/' />) : (<SignUpPage />) } />
+            
           </Switch>
         <Newsletter />
         <Footer />  

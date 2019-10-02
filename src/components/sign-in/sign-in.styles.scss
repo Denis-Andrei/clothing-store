@@ -26,15 +26,16 @@
                 border-bottom: none;
             }
         }
+    }
 
-        .text-box{
-            resize: none;
+    .link{
+        text-decoration: none;
+        color: #0000FF;
+        font-weight: 500;
+
+        &:hover{
+           color: #009AFF;
         }
-
-        // .buttons{
-        //     display: flex;
-        //     justify-content: stretch;
-        // }
     }
     .custom-button{
         margin-top: 2rem;

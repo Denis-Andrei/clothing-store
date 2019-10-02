@@ -3,43 +3,58 @@ import './top-bar.styles.scss';
 import { Link } from 'react-router-dom';
 import {connect} from 'react-redux';
 import SearchDropdown from '../search-dropdown/search-dropdown.component';
-import { setSearchField } from '../../redux/search/search.actions';
+
 import {auth} from '../../firebase/firebase.utils';
+import { toggleSearchHidden } from '../../redux/search/search.actions';
 
+import {FaSearch} from 'react-icons/fa'
+import {FaFacebookSquare, FaTwitter, FaInstagram} from 'react-icons/fa'
 
-const TopBar = ({toggleSearchHidden, inputValue, searchChange, onSearch, currentUser}) =>{
-    console.log(currentUser);
+const TopBar = ({toggleSearchHidden, inputValue, searchChange, onSearch, currentUser, hidden}) =>{
+    
     return(
     <div className="top-bar">
-        <div className="search-box">
-            <input className='search-input' type="search" placeholder='Search ...'   onBlur={toggleSearchHidden} onChange={searchChange}/>
-
-           { !inputValue? null:
-            <SearchDropdown />
-            
-            }
+        <div className="social-icons">
+            <a href='https://www.facebook.com' target='_blank' rel="noopener noreferrer"><FaFacebookSquare className='social-icon'  /></a>
+            <a href='https://www.twitter.com' target='_blank' rel="noopener noreferrer"><FaTwitter className='social-icon' /></a>
+            <a href='https://www.instagram.com' target='_blank' rel="noopener noreferrer"><FaInstagram className='social-icon' /></a>
         </div>
+        
+        <p className='search-icon' onClick={toggleSearchHidden}><FaSearch /></p> 
+
+        { 
+            hidden
+            ? 
+            null
+            :
+            <SearchDropdown />
+        
+        } 
+        
         {
             
             currentUser
             ?
-            <div className='link' onClick={ () => auth.signOut()}>{currentUser.displayName},<span className='link' onClick={ () => auth.signOut()}></span>SIGN OUT</div>
+            <div className='link sign-up-button' onClick={ () => auth.signOut()}>{currentUser.displayName},<span className='link' onClick={ () => auth.signOut()}></span>SIGN OUT</div>
             :
-            <Link className='link' to='/sign-in'>Sign In</Link>
+            <div className="buttons">
+                <Link className='link' to='/sign-in'>Sign in</Link>
+                <Link className='link sign-up-button' to='/sign-up'>Sign up</Link>
+            </div>
         }
         
     </div>
     )
 }
 
-const mapStateToProps = ({search: {inputValue}}) =>({
-    inputValue
+const mapStateToProps = ({search: { hidden}}) =>({
+    hidden
 })
 
 const mapDispatchToProps = dispatch =>({
-    searchChange: (event) => dispatch(setSearchField(event.target.value))
+    toggleSearchHidden: () => dispatch(toggleSearchHidden())
 })
 
 
-export default connect(mapStateToProps, mapDispatchToProps)(TopBar);
+export default connect(mapStateToProps,mapDispatchToProps)(TopBar);
 
