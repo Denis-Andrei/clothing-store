@@ -11,7 +11,7 @@
 }
 
 @mixin GridList {
-    width: 90%;
+    width: 98%;
     margin: 5rem auto;
     max-width: 150rem;
     display: grid;
@@ -23,7 +23,7 @@
 
 @mixin responsive($breakpoint){
     @if $breakpoint == phone-small{
-        @media only screen and (max-width: 25em){ //400px
+        @media only screen and (max-width: 22em){ //352px
             @content;
         }
     }

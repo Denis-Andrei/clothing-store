@@ -14,9 +14,6 @@ const CheckoutItems = ({cartItems, totalPrice}) =>{
                  cartItems.map(item=> <CheckoutItem key={item.id} item={item} />)
             }
            
-            
-            
-
         </div>
     )
 }
