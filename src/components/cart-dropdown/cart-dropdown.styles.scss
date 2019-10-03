@@ -1,4 +1,4 @@
-@import '../../assets/sass/variables';
+@import '../../assets/sass/main';
 .cart-dropdown{
     
     width: 40rem;
@@ -9,18 +9,18 @@
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    border: 1px solid #787878;
-    background-color: #f3f3f3;
+    border: 1px solid $color-gray-darker;
+    background-color: $color-gray-lighter;
     z-index: 10;
 
-    @media only screen and(max-width: 1400px){
+    @include responsive(laptop){
         top: 14rem;
     }
-    @media only screen and(max-width: 1000px){
+    @include responsive(tab-big){
         top: 15rem;
     }
 
-    @media only screen and(max-width: 600px){
+    @include responsive(phone){
         top: 17rem;
     }
 
@@ -34,14 +34,14 @@
             margin: 10px;
         }
         &::-webkit-scrollbar-track{
-            background: #f3f3f3;
+            background: $color-gray-lighter;
         }
         &::-webkit-scrollbar-thumb {
-            background: #787878; 
+            background: $color-gray; 
             border-radius: 10px;
     
             &:hover{
-                background: #5a5a5a; 
+                background: $color-gray-darker; 
             }
         }
         
@@ -55,13 +55,13 @@
         width: 60%;
         margin-top: auto;
         align-self: center;
-        background: green;
+        background: $color-green;
         border: none;
         
         &:hover{
             border: none;
-            background: rgb(0, 165, 0);
-            color: white;
+            background: $color-green-lighter;
+            color: $color-white;
         }
     }
         

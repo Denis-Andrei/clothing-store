@@ -1,16 +1,27 @@
+@import '../../assets/sass/main';
 .contact{
+    width: 90%;
+    margin: 5rem auto;
     display: flex;
     justify-content: space-around;
-    width: 90%;
-    margin: 3rem auto;
+
+
+    @include responsive(tab-large){
+        flex-direction: column;
+        align-items: center;
+    }
+    
 
     .contact-form{
         width: 50%;
         padding: 3rem;
-        border: 1px solid #787878;
+        border: 1px solid $color-gray-darker;
         display: flex;
         flex-direction: column;
         
+        @include responsive(tab-small){
+            width: 80%;
+        }
 
         .contact-header{
             text-align: center;
@@ -21,16 +32,16 @@
             flex-direction: column;
 
             input[type='text'], input[type='email'], input[type='tel'], .text-box{
-                font-size: 1.6rem;
+                font-size: $default-font-size;
                 padding: 2rem;
                 border: none;
-                border-bottom: 1px solid #787878;
+                border-bottom: 1px solid $color-gray-darker;
                 outline: none;
                 letter-spacing: 2px;
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
                 &:focus{
-                    border-bottom: 1px solid rgb(10, 165, 10);
+                    border-bottom: 1px solid $color-green;
                 }
             }
 
@@ -43,14 +54,20 @@
             margin-top: 2rem;
         }
     }
+
     .contact-info{
         width: 40%;
+        margin: 5rem;
         padding: 3rem;
-        background: #f3f3f3;
+        background: $color-gray-lighter;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+
+        @include responsive(tab-small){
+            width: 80%;
+        }
         
         
         .info-header{
@@ -58,16 +75,17 @@
         }
 
         .info{
+            margin: 4rem 2rem;
             display: flex;
             flex-direction: column;
             text-transform: uppercase;
             .phone, .email, .address{
-                color: #787878;
+                color: $color-gray-darker;
             }
         }
 
         .social-icons{
-            width: 20rem;
+                width: 20rem;
                 display: flex;
                 justify-content: space-between;
             .social-icon{

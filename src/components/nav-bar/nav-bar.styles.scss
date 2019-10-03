@@ -1,4 +1,4 @@
-@import '../../assets/sass/variables';
+@import '../../assets/sass/main';
 
 .nav-bar{
     width: 80%;
@@ -11,7 +11,7 @@
     .logo{
         font-size: 4rem;
         font-weight: 900;
-        color: #787878;
+        color: $color-gray-darker;
         text-decoration: none;
     }
     .options{
@@ -23,7 +23,7 @@
 
         .option{
             text-decoration: none;
-            color: black;
+            color: $color-black;
             margin: 0 2rem;
         }
     }

@@ -1,13 +1,14 @@
+@import '../../assets/sass/main';
 .category-list{
-    width: 90%;
-    margin: 0 auto;
-    max-width: 150rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
     
-    .custom-button{
-        display: none;
+    @include GridList;
+
+    @include responsive(tab-small){
+        grid-template-columns: repeat(2, minmax(25rem, 1fr));
     }
+    @include responsive(phone-small){
+        grid-template-columns: repeat(1, minmax(25rem, 1fr));
+    }
+
 }
+

@@ -1,6 +1,6 @@
-@import '../../assets/sass/variables';
+@import '../../assets/sass/main';
 .checkout-summary{
-    background: #f3f3f3;
+    background: $color-gray-lighter;
     width: 35rem;
     height: max-content;
     
@@ -9,7 +9,7 @@
         text-transform: uppercase;
     }
     .shipping{
-        border-top: 1px solid #787878; 
+        border-top: 1px solid $color-gray-darker; 
     }
     .subtotal, .shipping, .total{
         display: flex;
@@ -25,12 +25,10 @@
         letter-spacing: 2px;
     }
 
-
-
     .total{
         
-        background: green;
-        color: white;
+        background: $color-green;
+        color: $color-white;
         
     }
 }

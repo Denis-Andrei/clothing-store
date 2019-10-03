@@ -1,41 +1,38 @@
-@import '../../assets/sass/variables';
+@import '../../assets/sass/main';
 
     
-    .custom-button{
-        background: black;
-        color: white;
-        padding: 1rem 3rem;
-        font-size: $default-font-size;
-        font-family: inherit;
-        outline: none;
-        border: 2px solid transparent;
-        cursor: pointer;
-        // display: flex;
-        // justify-content: center;
-        
-
-        &:hover{
-            background: white;
-            color: black;
-            border: 2px solid black;
-            
-        }
+.custom-button{
+    background: $color-black;
+    color: $color-white;
+    padding: 1rem 3rem;
+    font-size: $default-font-size;
+    font-family: inherit;
+    outline: none;
+    border: 2px solid transparent;
+    cursor: pointer;
+    
+    &:hover{
+        background: $color-white;
+        color: $color-black;
+        border: 2px solid $color-black;
         
     }
-    .no-border{
+    
+}
+.no-border{
+    border: none;
+    &:hover{
         border: none;
-        &:hover{
-            border: none;
-        }
     }
+}
 
-    .inverted{
-        background: white;
-        color: black;
-        border: 2px solid black;
-        &:hover{
-            color: white;
-            background: black;
-        }
+.inverted{
+    background: $color-white;
+    color: $color-black;
+    border: 2px solid $color-black;
+    &:hover{
+        color: $color-white;
+        background: $color-black;
     }
+}
     

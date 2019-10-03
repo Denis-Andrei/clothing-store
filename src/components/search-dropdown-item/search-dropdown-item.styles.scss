@@ -1,40 +1,41 @@
-@import '../../assets/sass/variables';
+@import '../../assets/sass/main';
 .search-dropdown-item{
    
     
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid $color-gray-darker;
     cursor: pointer;
     
     
     &:hover{
-        background: rgba(0, 0, 0, 0.3);
+        background: $color-gray;
     }
 
     .search-image{
-        margin: 2rem 2rem;
+        margin: 2rem;
         width: 10rem;
         height: 10rem;
         object-fit: cover;
 
-        @media only screen and(max-width: 1000px){
+        @include responsive(tab-large){
             width: 8rem;
             height: 8rem;
         }
 
-        @media only screen and(max-width: 600px){
+        @include responsive(phone){
             width: 6rem;
             height: 6rem;
+            margin: 1rem;
         }
 
     }
 
     .item-info{
             font-size: 1.4rem;
-            color: black;
-
+            color: $color-black;
+            
             .item-price{
                 color: inherit;
             }
@@ -44,9 +45,6 @@
         margin-right: 2rem;
         font-size: $default-font-size;
         padding: 5px;
-        min-width: 7rem;
-
-        
     }
     
    

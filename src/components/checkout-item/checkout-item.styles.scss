@@ -1,4 +1,4 @@
-@import '../../assets/sass/variables';
+@import '../../assets/sass/main';
 .checkout-item{
     font-size: $default-font-size;
     display: flex;
@@ -9,11 +9,14 @@
     
 
     .checkout-image{
-        margin: 2rem 2rem;
+        margin: 2rem;
         width: 10rem;
         height: 10rem;
         object-fit: cover;
 
+        @include responsive(phone){
+            margin: 1rem;
+        }
         
 
     }
@@ -32,8 +35,8 @@
             .item-title{
                 font-weight: 500;
 
-                @media only screen and(max-width: 600px){
-                    font-size: 1.4rem;
+                @include responsive(phone){
+                    font-size: $small-font-size;
                 }
             }
 
@@ -46,10 +49,6 @@
     .item-quantity{
         display: flex;
         align-items: center;
-        
-        @media only screen and(max-width: 600px){
-            flex-direction: column;
-        }
 
         .sign-minus, .sign-plus{
             width: 2.5rem;
@@ -63,10 +62,10 @@
             }
         }
         .sign-minus{
-            color: rgb(230, 90, 90);
+            color: $color-red;
         }
         .sign-plus{
-            color: rgb(97, 190, 97);
+            color: $color-green;
         }
 
         .quantity{
@@ -78,16 +77,20 @@
         font-size: 2rem;
         width: 10rem;
         text-align: center;
+
+        @include responsive(phone-small){
+            display: none;
+        }
     }
    
     .x-mark{
-        color: rgb(255, 0, 0);
+        color: $color-red;
         cursor: pointer;
-        font-size: 2.5rem;
+        font-size: 2rem;
         user-select: none;
 
-        @media only screen and(max-width: 600px){
-            font-size: 1.6rem;
+        @include responsive(phone){
+            font-size: $default-font-size;
         }
     }
 }

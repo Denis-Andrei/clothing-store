@@ -1,3 +1,4 @@
+@import '../../assets/sass/main';
 .cart{
     
     position: relative;
@@ -8,20 +9,21 @@
 
     .cart-icon{
         width: 3rem;
+        height: 3rem;
     }
     .item-count{
         position: absolute;
-        color: green;
+        color: $color-green;
         font-size: 12px;
         letter-spacing: 0;
-        bottom: 12px;
-        @media only screen and(max-width: 600px) {
+        bottom: 2px;
+        @include responsive(tab-small) {
             font-size: 10px;
-            bottom: 15px;
+            bottom: 0;
         }
 
     }
     .item-count-red{
-        color: red;
+        color: $color-red;
     }
 }

@@ -1,10 +1,10 @@
-@import '../../assets/sass/variables';
+@import '../../assets/sass/main';
 .footer{
     
     font-size: $default-font-size;
     font-weight: 300;
     padding: 3rem;
-    background: #787878;
+    background: $color-gray-darker;
 
     .footer-box{
         width: 80%;
@@ -12,46 +12,34 @@
         display: flex;
         justify-content: space-between;
 
-        @media only screen and( max-width: 600px){
+        @include responsive(phone){
             flex-direction: column;
             text-align: center;
             
         }
 
-        .option{
-            text-decoration: none;
-            color: #f3f3f3;
-            cursor: pointer;
-            line-height: 3rem;
-
-                &:hover{
-                    color: #313131;
-                }
-            
-        }
     
         .footer-customers, .footer-social-icons, .footer-quick-links{
             display: flex;
             flex-direction: column;
             letter-spacing: 1px;
             
-           
-
             .footer-h4{
                 font-size: 2rem;
                 font-weight: 400;
-                color: #313131;
+                color: $color-black;
                 padding-bottom: 5px;
-                border-bottom: 1px solid #313131;
+                border-bottom: 1px solid $color-black;
             }
+
             .option{
                 text-decoration: none;
-                color: #f3f3f3;
+                color: $color-gray-lighter;
                 cursor: pointer;
                 line-height: 3rem;
                 
                     &:hover{
-                        color: #313131;
+                        color: $color-black;
                     }  
             }
         }
@@ -61,6 +49,6 @@
         margin-top: 5rem;
         margin-bottom: 0;
         text-align: center;
-        color: #313131
+        color: $color-black;
     }
 }

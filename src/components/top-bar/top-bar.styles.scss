@@ -1,17 +1,17 @@
-@import '../../assets/sass/variables';
+@import '../../assets/sass/main';
 
 .top-bar{
     padding: 0 8rem;
     height: 50px;
-    background: black;
+    background: $color-black;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    @media only screen and(max-width: 600px){
+    @include responsive(phone){
         padding: 0 4rem;
     }
-    @media only screen and(max-width: 400px){
+    @include responsive(phone-small){
         padding: 0 2rem;
     }
     
@@ -21,20 +21,20 @@
             font-size: 2rem;
             margin: 1rem;
             text-decoration: none;
-            color: #787878;
+            color: $color-gray-darker;
             &:hover{
-                color: #f3f3f3;
+                color: $color-gray-lighter;
             }
         }
     }
     
     .search-icon{
-        color: #787878;
+        color: $color-gray-darker;
         cursor: pointer;
         font-size: $default-font-size;
 
         &:hover{
-            color: #f3f3f3;
+            color: $color-gray-lighter;
         }
     }
     .link{
@@ -42,7 +42,7 @@
         font-size: 1.4rem;
         letter-spacing: 1px;
         margin: 1rem;
-        color: #f3f3f3;
+        color: $color-gray-lighter;
         cursor: pointer;
     }
     
@@ -51,8 +51,8 @@
         
     
         .sign-up-button{
-            color: black;
-            background: #f3f3f3;
+            color: $color-black;
+            background: $color-gray-lighter;
             width: max-content;
             padding: 5px;
             border-radius: 5px;

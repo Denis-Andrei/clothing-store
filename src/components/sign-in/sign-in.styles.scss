@@ -1,3 +1,5 @@
+@import '../../assets/sass/main';
+
 .sign-in{
     width: 50rem;
     padding: 3rem;
@@ -12,17 +14,17 @@
         
 
         input[type='password'], input[type='email']{
-            font-size: 1.6rem;
+            font-size: $default-font-size;
             letter-spacing: 2px;
             padding: 2rem;
             margin-bottom: 5px;
-            background: #f3f3f3;
+            background: $color-gray-lighter;
             border: none;
-            border-left: 3px solid #f3f3f3;
+            border-left: 3px solid $color-gray-lighter;
             outline: none;
 
             &:focus{
-                border-left: 3px solid green;
+                border-left: 3px solid $color-green;
                 border-bottom: none;
             }
         }

@@ -1,15 +1,17 @@
+@import '../../assets/sass/main';
 .choose-box{
     width: 80%;
     margin: 10rem auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+
     .gender-box{
         position: relative;
         width: 50rem;
         height: 40rem;
         margin-top: 1rem;
-        border: 5px solid #787878;
+        border: 5px solid $color-gray-darker;
         
         .custom-button{
             position: absolute;
@@ -17,17 +19,8 @@
             left: 50%;
             transform: translate(-50%,-50%);
             border: none;
-            // background: white;
-            // color: black;
             opacity: 0.9;
-
-        //     &:hover{
-        //         background: black;
-        //         color: white;
-        //     }
         }
-        
-    }
 
-   
+    }   
 }

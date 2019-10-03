@@ -65,8 +65,9 @@ class SignIn extends React.Component{
                         
                     
                 </form>
-                <p>Don't have an account? <Link className='link' to='sign-up'>Sign Up</Link></p>
                 <CustomButton onClick={signInWithGoogle} name={'sign in with Google'}/> 
+                <p>Don't have an account? <Link className='link' to='sign-up'>Sign Up</Link></p>
+                
 
             </div>
         )

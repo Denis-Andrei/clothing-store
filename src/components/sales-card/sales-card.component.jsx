@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom';
 const SalesCard = () =>(
     <div className="sales-card">
         <div className="title">
-            <h3>Tops & T-shirts</h3>
+            <h3>Shoes & T-shirts</h3>
             <h1>50% OFF</h1>
         </div>
         <Link to='/shop'>

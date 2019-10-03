@@ -1,7 +1,13 @@
+@import '../../assets/sass/main';
 .collection-items{
-    width: 90%;
-    max-width: 150rem;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
+    
+    @include GridList;
+
+    @include responsive(tab-small){
+        grid-template-columns: repeat(2, minmax(25rem, 1fr));
+    }
+
+    @include responsive(phone-small){
+        grid-template-columns: repeat(1, minmax(25rem, 1fr));
+    }
 }

@@ -1,15 +1,13 @@
+@import '../../assets/sass/main.scss';
 .checkout-items{
     width: 100%;
     margin-right: 15rem;
-    @media only screen and(max-width: 900px){
+    
+    @include responsive(tab-samll){
         margin-right: 0;
         margin-bottom: 5rem;
     }
 
-    @media only screen and(max-width: 600px){
-        margin-right: 0;
-        margin-bottom: 5rem;
-    }
     .message{
         font-size: 2rem;
         text-align: center;

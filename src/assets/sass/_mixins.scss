@@ -1,0 +1,54 @@
+@mixin ProductTitle {
+    font-size: $default-font-size;
+    color: $color-black;
+    letter-spacing: 5px;
+}
+
+@mixin ProductPrice {
+    font-size: $default-font-size;
+    color: $color-gray-darker;
+    margin: 0;
+}
+
+@mixin GridList {
+    width: 90%;
+    margin: 5rem auto;
+    max-width: 150rem;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(25rem, 1fr));
+    justify-items: center;
+    grid-gap: 3rem;
+    justify-items: center;
+}
+
+@mixin responsive($breakpoint){
+    @if $breakpoint == phone-small{
+        @media only screen and (max-width: 25em){ //400px
+            @content;
+        }
+    }
+
+    @if $breakpoint == phone{
+        @media only screen and (max-width: 37.5em){ //600px
+            @content;
+        }
+    }
+
+    @if $breakpoint == tab-small{
+        @media only screen and(max-width: 50em){ //800px
+            @content;
+        }
+    }
+
+    @if $breakpoint == tab-large{
+        @media only screen and(max-width: 62.5em){ //1000px
+            @content; 
+        }
+    }
+
+    @if $breakpoint == laptop{
+        @media only screen and(max-width: 87.5em){ //1400px
+            @content;
+        }
+    }
+}

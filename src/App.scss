@@ -1,3 +1,5 @@
+@import './assets/sass/mixins';
+
 *{
   box-sizing: border-box;
 }
@@ -6,21 +8,24 @@ html{
   
   font-size: 62.5%;
 
-  @media only screen and(max-width: 1400px){
+  @include responsive(laptop){
     font-size: 55%;
   }
-
-  @media only screen and(max-width: 1000px){
+  @include responsive(tab-big){
     font-size: 50%;
   }
-
-  @media only screen and(max-width: 600px){
+  @include responsive(tab-small){
+    font-size: 45%;
+  }
+  @include responsive(phone){
     font-size: 40%;
   }
+  
+  
+  
 }
 
 body{
   font-family: 'Roboto', sans-serif;
   letter-spacing: 3px;
-  
 }
