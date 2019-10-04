@@ -6,9 +6,6 @@ import { createUserProfileDocument } from '../../firebase/firebase.utils';
 
 
 
-
-
-
 class SignUp extends React.Component{
     constructor(){
         super();
@@ -95,8 +92,9 @@ class SignUp extends React.Component{
                         required
                         placeholder='Password'
                     />
-                    {/* <button type='submit'>Register</button> */}
+                    
                     <CustomButton type='submit' name={'Register'} />
+                    
                 </form>
         
                 

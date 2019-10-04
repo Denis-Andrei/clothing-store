@@ -6,7 +6,9 @@ import {connect} from 'react-redux';
 import {addItem} from '../../redux/cart/cart.actions';
 
 const SearchDropdownItem = ({item, history, addItem, toggle}) =>{
-    const {title, imageName , price, category} = item
+
+    const {title, imageName , price, category} = item;
+    
     return(
         <div className="search-dropdown-item" >
             <img onClick={()=>{history.push(`/shop/${category}/${title}`); toggle()}} className='search-image' src={require(`../../assets/images/collections/${imageName}.jpg`)} alt={imageName} />

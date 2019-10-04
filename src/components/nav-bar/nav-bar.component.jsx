@@ -16,7 +16,6 @@ const NavBar = ({hidden}) =>(
             
             <Link className="option" to='/shop/mens'>MEN</Link>
             <Link className="option" to='/shop/womens'>WOMEN</Link>
-            {/* <Link className="option" to='/shop/womens/accessories'>ACCESSORIES</Link> */}
             <CartIcon />
  
         </div>

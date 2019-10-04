@@ -1,9 +1,9 @@
 import React from 'react';
-import { Switch , Route, Redirect} from 'react-router-dom';
+
 import './App.scss';
+
 import TopBar from './components/top-bar/top-bar.component';
 import NavBar from './components/nav-bar/nav-bar.component';
-
 import HomePage from './pages/homepage/homepage.component';
 import ShopPage from './pages/shop/shop.component';
 import Footer from './components/footer/footer.component';
@@ -11,9 +11,11 @@ import Newsletter from './components/newsletter/newsletter.component';
 import CheckoutPage from './pages/checkout/checkout.component';
 import ContactPage from './pages/contact/contact.component';
 import SignInPage from './pages/sign-in/sign-in.component';
+import SignUpPage from './pages/sign-up/sign-up.component';
 
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
-import SignUpPage from './pages/sign-up/sign-up.component';
+import { Switch , Route, Redirect} from 'react-router-dom';
+
 
 
 class App extends React.Component {

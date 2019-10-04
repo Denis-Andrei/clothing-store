@@ -10,7 +10,7 @@ import { toggleSearchHidden } from '../../redux/search/search.actions';
 import {FaSearch} from 'react-icons/fa'
 import {FaFacebookSquare, FaTwitter, FaInstagram} from 'react-icons/fa'
 
-const TopBar = ({toggleSearchHidden, inputValue, searchChange, onSearch, currentUser, hidden}) =>{
+const TopBar = ({toggleSearchHidden, currentUser, hidden}) =>{
     
     return(
     <div className="top-bar">

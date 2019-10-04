@@ -5,12 +5,14 @@ import HeadingSmall from '../../components/heading-small/heading-small.component
 import CheckoutSummary from '../../components/checkout-summary/checkout-summary.component';
 import CheckoutItems from '../../components/checkout-items.component.jsx/checkout-items.component';
 import CustomButton from '../../components/custom-button/custom-button.component';
-import {connect} from 'react-redux';
-import { createStructuredSelector } from 'reselect';
-import { selectCartItemsQuantity, selectCartTotalPrice, selectCartItems } from '../../redux/cart/cart.selectors';
-import {Link } from 'react-router-dom';
 import LatestArrivals from '../../components/latest-arrivals/latest-arrivals.component';
 import StripeCheckoutButton from '../../components/stripe-btn/stripe-btn.component';
+
+import { connect } from 'react-redux';
+import { createStructuredSelector } from 'reselect';
+import { selectCartItemsQuantity, selectCartTotalPrice, selectCartItems } from '../../redux/cart/cart.selectors';
+import { Link } from 'react-router-dom';
+
 
 const CheckoutPage = ({itemQuantity, totalPrice, cartItems}) =>{
     

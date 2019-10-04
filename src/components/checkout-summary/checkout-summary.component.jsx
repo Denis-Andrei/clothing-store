@@ -4,6 +4,7 @@ import './checkout-summary.styles.scss';
 
 
 const CheckoutSummary = ({quantity, price}) =>{
+    
     return(
         <div className="checkout-summary">
             

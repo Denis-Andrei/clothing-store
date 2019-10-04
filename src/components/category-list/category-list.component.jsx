@@ -7,18 +7,30 @@ import HeadingSmall from '../heading-small/heading-small.component';
 import { selectMensCollectionsOverview, selectWomensCollectionsOverview} from '../../redux/shop/shop.selectors';
 
 const CategoryList = ({mensCollection,womensCollection, match}) =>{ 
-   
+    let data;
+    if(match.params.categoryId === 'womens'){
+         data = womensCollection;
+    }else if(match.params.categoryId === 'mens'){
+         data = mensCollection;
+    }
+
     return(
         <div>
         <HeadingSmall name={`${match.params.categoryId}`} />
             <div className="category-list">
             
-                {    
-                    (match.params.categoryId === 'womens')?
-                            womensCollection.map(cat =>  <CategoryCard key={cat.id} name={cat.title} image={cat.image}/>)
+                {
+                    data
+                    ?
+                        data.map(cat =>  <CategoryCard key={cat.id} name={cat.title} image={cat.image}/>)
                     :
-                    mensCollection.map(cat =>  <CategoryCard key={cat.id} name={cat.title} image={cat.image} />)
+                        ''
                 }
+                    
+                        
+                    
+                        
+                
         
         </div>
     </div>

@@ -3,7 +3,7 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-  apiKey: "AIzaSyDuM8YWS1XN4ugFynYjH6sKqAw0PNJB3Aw",
+  apiKey: "hidden",
   authDomain: "store-db-2d69f.firebaseapp.com",
   databaseURL: "https://store-db-2d69f.firebaseio.com",
   projectId: "store-db-2d69f",
@@ -49,3 +49,4 @@ provider.setCustomParameters({prompt: 'select_account'});
 export const signInWithGoogle = () => auth.signInWithPopup(provider);
 
 export default firebase;
+
