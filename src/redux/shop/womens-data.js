@@ -7,45 +7,45 @@ const WOMENS_DATA = {
         items: [
             {
                 id: 'w1',
-                title: 'Women T-shirt',
+                title: 'Black T-shirt',
                 category: 'womens/t-shirts',
-                imageName: 't-shirt',
+                imageName: 'wom-black-tshirt',
                 price: 20.00
             },
             {
                 id: 'w2',
-                title: 'Women T-shirt',
+                title: 'Casual T-shirt',
                 category: 'womens/t-shirts',
-                imageName: 't-shirt',
-                price: 20.00
+                imageName: 'wom-casual-tshirt',
+                price: 25.00
             },
             {
                 id: 'w3',
-                title: 'Women T-shirt',
+                title: 'Colored T-shirt',
                 category: 'womens/t-shirts',
-                imageName: 't-shirt',
-                price: 200.00
+                imageName: 'wom-colored-tshirt',
+                price: 30.00
             },
             {
                 id: 'w4',
-                title: 'Women T-shirt',
+                title: 'Light Blue T-shirt',
                 category: 'womens/t-shirts',
-                imageName: 't-shirt',
-                price: 100.00
+                imageName: 'wom-lightblue-tshirt',
+                price: 25.00
             },
             {
                 id: 'w5',
-                title: 'Women T-shirt',
+                title: 'Red T-shirt',
                 category: 'womens/t-shirts',
-                imageName: 'jeans-1',
-                price: 60.00
+                imageName: 'wom-red-tshirt',
+                price: 40.00
             },
             {
                 id: 'w6',
-                title: 'Women T-shirt',
+                title: 'White T-shirt',
                 category: 'womens/t-shirts',
-                imageName: 'jeans-1',
-                price: 60.00
+                imageName: 'wom-white-tshirt',
+                price: 15.00
             }
         ]
     },
@@ -57,45 +57,45 @@ const WOMENS_DATA = {
         items: [
             {
                 id: 'w7',
-                title: 'Blue Jeans',
+                title: 'Black Jeans',
                 category: 'womens/jeans',
-                imageName: 'jeans-1',
+                imageName: 'wom-black-jeans',
                 price: 20.00
             },
             {
                 id: 'w8',
                 title: 'Blue Jeans',
                 category: 'womens/jeans',
-                imageName: 'jeans-1',
-                price: 20.00
+                imageName: 'wom-blue-jeans',
+                price: 25.00
             },
             {
                 id: 'w9',
-                title: 'Blue Jeans',
+                title: 'Casual Blue Jeans',
                 category: 'womens/jeans',
-                imageName: 'jeans-1',
-                price: 20.00
+                imageName: 'wom-casualblue-jeans',
+                price: 35.00
             },
             {
                 id: 'w10',
-                title: 'Blue Jeans',
+                title: 'Casual Jeans',
                 category: 'womens/jeans',
-                imageName: 'jeans-1',
-                price: 200.00
+                imageName: 'wom-casual-jeans',
+                price: 20.00
             },
             {
                 id: 'w11',
-                title: 'Blue Jeans',
+                title: 'Light Blue Jeans',
                 category: 'womens/jeans',
-                imageName: 'jeans-1',
-                price: 60.00
+                imageName: 'wom-lightblue-jeans',
+                price: 30.00
             },
             {
                 id: 'w12',
-                title: 'Black Jacket',
+                title: 'Modern Jeans',
                 category: 'womens/jeans',
-                imageName: 'jeans-1',
-                price: 60.00
+                imageName: 'wom-modern-jeans',
+                price: 30.00
             }
         ]
     },
@@ -109,43 +109,43 @@ const WOMENS_DATA = {
                 id: 'w13',
                 title: 'Black Jacket',
                 category: 'womens/jackets',
-                imageName: 'jeans-1',
-                price: 20.00
+                imageName: 'wom-black-jacket',
+                price: 50.00
             },
             {
                 id: 'w14',
-                title: 'Black Jacket',
+                title: 'Casual Jacket',
                 category: 'womens/jackets',
-                imageName: 'jeans-1',
-                price: 20.00
+                imageName: 'wom-casual-jacket',
+                price: 40.00
             },
             {
                 id: 'w15',
-                title: 'Black Jacket',
+                title: 'Leather Jacket',
                 category: 'womens/jackets',
-                imageName: 'jeans-1',
-                price: 20.00
+                imageName: 'wom-leather-jacket',
+                price: 55.00
             },
             {
                 id: 'w16',
-                title: 'Black Jacket',
+                title: 'Red Jacket',
                 category: 'womens/jackets',
-                imageName: 'jeans-1',
-                price: 200.00
+                imageName: 'wom-red-jacket',
+                price: 45.00
             },
             {
                 id: 'w17',
-                title: 'Black Jacket',
+                title: 'Winter Jacket',
                 category: 'womens/jackets',
-                imageName: 'jeans-1',
+                imageName: 'wom-winter-jacket',
                 price: 60.00
             },
             {
                 id: 'w18',
-                title: 'Black Jacket',
+                title: 'Yellow Jacket',
                 category: 'womens/jackets',
-                imageName: 'jeans-1',
-                price: 60.00
+                imageName: 'wom-yellow-jacket',
+                price: 35.00
             }
         ]
     },
@@ -157,45 +157,45 @@ const WOMENS_DATA = {
         items: [
             {
                 id: 'w19',
-                title: 'White shoes',
+                title: 'Black shoes',
                 category: 'womens/shoes',
-                imageName: 'jeans-1',
-                price: 20.00
+                imageName: 'wom-black-shoes',
+                price: 30.00
             },
             {
                 id: 'w20',
-                title: 'White shoes',
+                title: 'Elegant shoes',
                 category: 'womens/shoes',
-                imageName: 'jeans-1',
-                price: 20.00
+                imageName: 'wom-elegant-shoes',
+                price: 40.00
             },
             {
                 id: 'w21',
-                title: 'White shoes',
+                title: 'Fashion shoes',
                 category: 'womens/shoes',
-                imageName: 'jeans-1',
-                price: 20.00
+                imageName: 'wom-fashion-shoes',
+                price: 50.00
             },
             {
                 id: 'w22',
-                title: 'White shoes',
+                title: 'Winter shoes',
                 category: 'womens/shoes',
-                imageName: 'jeans-1',
-                price: 200.00
+                imageName: 'wom-winter-shoes',
+                price: 40.00
             },
             {
                 id: 'w23',
                 title: 'White shoes',
                 category: 'womens/shoes',
-                imageName: 'jeans-1',
+                imageName: 'wom-white-shoes',
                 price: 60.00
             },
             {
                 id: 'w24',
-                title: 'Black Jacket',
+                title: 'Red shoes',
                 category: 'womens/shoes',
-                imageName: 'jeans-1',
-                price: 60.00
+                imageName: 'wom-red-shoes',
+                price: 50.00
             }
         ]
     },
@@ -209,42 +209,42 @@ const WOMENS_DATA = {
                 id: 'w25',
                 title: 'Black bags',
                 category: 'womens/bags',
-                imageName: 'jeans-1',
-                price: 20.00
+                imageName: 'wom-black-bag',
+                price: 40.00
             },
             {
                 id: 'w26',
-                title: 'Black bags',
+                title: 'Casual bags',
                 category: 'womens/bags',
-                imageName: 'jeans-1',
-                price: 20.00
+                imageName: 'wom-casual-bag',
+                price: 35.00
             },
             {
                 id: 'w27',
-                title: 'Black bags',
+                title: 'Colored bags',
                 category: 'womens/bags',
-                imageName: 'jeans-1',
-                price: 20.00
+                imageName: 'wom-colored-bag',
+                price: 30.00
             },
             {
                 id: 'w28',
-                title: 'Black bags',
+                title: 'Leather bags',
                 category: 'womens/bags',
-                imageName: 'jeans-1',
-                price: 200.00
+                imageName: 'wom-leather-bag',
+                price: 50.00
             },
             {
                 id: 'w29',
-                title: 'Black bags',
+                title: 'Red bags',
                 category: 'womens/bags',
-                imageName: 'jeans-1',
-                price: 60.00
+                imageName: 'wom-red-bag',
+                price: 40.00
             },
             {
                 id: 'w30',
-                title: 'Black Jacket',
+                title: 'White bag',
                 category: 'womens/bags',
-                imageName: 'jeans-1',
+                imageName: 'wom-white-bag',
                 price: 60.00
             }
         ]
@@ -257,45 +257,45 @@ const WOMENS_DATA = {
         items: [
             {
                 id: 'w31',
-                title: 'Black accessories',
+                title: 'Gold Necklace',
                 category: 'womens/accessories',
-                imageName: 'jeans-1',
-                price: 20.05
+                imageName: 'wom-gold-necklace',
+                price: 140.00
             },
             {
                 id: 'w32',
-                title: 'Black accessories',
+                title: 'Black watch',
                 category: 'womens/accessories',
-                imageName: 'jeans-1',
-                price: 20.00
+                imageName: 'wom-black-watch',
+                price: 80.00
             },
             {
                 id: 'w33',
-                title: 'Black accessories',
+                title: 'Casual earrings',
                 category: 'womens/accessories',
-                imageName: 'jeans-1',
+                imageName: 'wom-casual-earrings',
                 price: 20.00
             },
             {
                 id: 'w34',
-                title: 'Black accessories',
+                title: 'Gold ring',
                 category: 'womens/accessories',
-                imageName: 'jeans-1',
-                price: 20.0
+                imageName: 'wom-gold-ring',
+                price: 120.0
             },
             {
                 id: 'w35',
                 title: 'red',
-                category: 'womens/accessories',
-                imageName: 'jeans-1',
-                price: 60.00
+                category: 'Elegant ring',
+                imageName: 'wom-elegant-ring',
+                price: 50.00
             },
             {
                 id: 'w36',
-                title: 'LASTWOMEN LASTWOMEN',
+                title: 'Silver ring',
                 category: 'womens/accessories',
-                imageName: 'jeans-1',
-                price: 60.00
+                imageName: 'wom-silver-ring',
+                price: 20.00
             }
         ]
     }

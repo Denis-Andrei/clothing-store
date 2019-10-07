@@ -12,7 +12,7 @@ const CategoryCard = ({name, image, match}) =>{
         
         >
             <Link to={`${match.url}/${name}`}>
-                <img className='category-image' src={require(`../../assets/images/collections/${image}.jpg`)} alt=""/> 
+                <img className='category-image' src={require(`../../assets/images/category/${image}.jpg`)} alt=""/> 
                 <h3 className='item-title'>{name.toUpperCase()}</h3> 
             </Link>
         </div>

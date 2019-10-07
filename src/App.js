@@ -12,6 +12,7 @@ import CheckoutPage from './pages/checkout/checkout.component';
 import ContactPage from './pages/contact/contact.component';
 import SignInPage from './pages/sign-in/sign-in.component';
 import SignUpPage from './pages/sign-up/sign-up.component';
+import CredentialsPage from './pages/credentials/credentials.component';
 
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 import { Switch , Route, Redirect} from 'react-router-dom';
@@ -71,6 +72,7 @@ class App extends React.Component {
             <Route  path='/shop' component={ShopPage} />
             <Route exact path='/checkout' component={CheckoutPage} />
             <Route exact path='/contact' component={ContactPage} />
+            <Route exact path='/credentials' component={CredentialsPage} />
             <Route exact path='/sign-in' render={ ()=> this.state.currentUser ? (<Redirect to='/' />) : (<SignInPage />) } />
             <Route exact path='/sign-up' render={ ()=> this.state.currentUser ? (<Redirect to='/' />) : (<SignUpPage />) } />
             

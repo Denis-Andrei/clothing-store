@@ -33,7 +33,7 @@
 
             
             .item-title{
-                font-weight: 500;
+                @include ProductTitle;
 
                 @include responsive(phone){
                     font-size: $small-font-size;
@@ -41,7 +41,7 @@
             }
 
             .item-price{
-                margin: 0;
+                @include ProductPrice;
             }
         }
     }

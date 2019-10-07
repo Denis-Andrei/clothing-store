@@ -7,45 +7,45 @@ const MENS_DATA = {
         items: [
             {
                 id: 'm1',
-                title: 'MENSWhite t-shirt',
+                title: 'Black t-shirt',
                 category: 'mens/t-shirts',
-                imageName: 'men-white-tshirt',
+                imageName: 'men-black-tshirt',
                 price: 20.00
             },
             {
                 id: 'm2',
-                title: 'White t-shirt2',
+                title: 'Casual t-shirt',
                 category: 'mens/t-shirts',
-                imageName: 'men-casual-jeans',
-                price: 20.00
+                imageName: 'men-casual-tshirt',
+                price: 15.00
             },
             {
                 id: 'm3',
-                title: 'White t-shirt3',
+                title: 'Fashion t-shirt',
                 category: 'mens/t-shirts',
                 imageName: 'men-fashion-tshirt',
-                price: 200.00
+                price: 30.00
             },
             {
                 id: 'm4',
-                title: 'White t-shirt4',
+                title: 'Orange t-shirt4',
                 category: 'mens/t-shirts',
-                imageName: 'men-black-tshirt',
-                price: 40.00
+                imageName: 'men-orange-tshirt',
+                price: 25.00
             },
             {
                 id: 'm5',
-                title: 'White t-shirt4',
+                title: 'White t-shirt',
                 category: 'mens/t-shirts',
-                imageName: 'men-orange-tshirt',
-                price: 40.00
+                imageName: 'men-white-tshirt',
+                price: 15.00
             },
             {
                 id: 'm6',
-                title: 'White t-shirt4',
+                title: 'White t-shirt',
                 category: 'mens/t-shirts',
-                imageName: 'jeans-1',
-                price: 40.00
+                imageName: 'men-white-tshirt',
+                price: 15.00
             }
 
         ]
@@ -58,14 +58,14 @@ const MENS_DATA = {
         items: [
             {
                 id: 'm7',
-                title: 'Blue Jeans',
+                title: 'Black Jeans',
                 category: 'mens/jeans',
                 imageName: 'men-black-jeans',
-                price: 20.00
+                price: 25.00
             },
             {
                 id: 'm8',
-                title: 'Blue Jeans',
+                title: 'Red Jeans',
                 category: 'mens/jeans',
                 imageName: 'men-red-jeans',
                 price: 20.00
@@ -75,28 +75,28 @@ const MENS_DATA = {
                 title: 'Blue Jeans',
                 category: 'mens/jeans',
                 imageName: 'men-blue-jeans',
-                price: 20.00
+                price: 30.00
             },
             {
                 id: 'm10',
-                title: 'Blue Jeans',
+                title: 'Fashion Jeans',
                 category: 'mens/jeans',
                 imageName: 'men-fashion-jeans',
-                price: 200.00
+                price: 35.00
             },
             {
                 id: 'm11',
-                title: 'Blue Jeans',
+                title: 'Casual Jeans',
                 category: 'mens/jeans',
                 imageName: 'men-casual-jeans',
-                price: 60.00
+                price: 50.00
             },
             {
                 id: 'm12',
-                title: 'Blue Jeans',
+                title: 'Casual Black Jeans',
                 category: 'mens/jeans',
-                imageName: 'men-black-jeans',
-                price: 60.00
+                imageName: 'men-casualblack-jeans',
+                price: 40.00
             }
 
         ]
@@ -109,45 +109,45 @@ const MENS_DATA = {
         items: [
             {
                 id: 'm13',
-                title: 'Black Jacket',
+                title: 'Autumn Jacket',
                 category: 'mens/jackets',
-                imageName: 'jeans-1',
-                price: 20.00
+                imageName: 'men-autumn-jacket',
+                price: 60.00
             },
             {
                 id: 'm14',
-                title: 'Black Jacket',
+                title: 'Blue Jacket',
                 category: 'mens/jackets',
-                imageName: 'jeans-1',
-                price: 20.00
+                imageName: 'men-blue-jacket',
+                price: 40.00
             },
             {
                 id: 'm15',
-                title: 'Black Jacket',
+                title: 'Casual Jacket',
                 category: 'mens/jackets',
-                imageName: 'jeans-1',
-                price: 20.00
+                imageName: 'men-casual-jacket',
+                price: 45.00
             },
             {
                 id: 'm16',
-                title: 'Black Jacket',
+                title: 'Denim Jacket',
                 category: 'mens/jackets',
-                imageName: 'jeans-1',
-                price: 200.00
+                imageName: 'men-denim-jacket',
+                price: 35.00
             },
             {
                 id: 'm17',
-                title: 'Black Jacket',
+                title: 'Gray Jacket',
                 category: 'mens/jackets',
-                imageName: 'jeans-1',
-                price: 60.00
+                imageName: 'men-gray-jacket',
+                price: 30.00
             },
             {
                 id: 'm18',
-                title: 'Black Jacket',
+                title: 'Leather Jacket',
                 category: 'mens/jackets',
-                imageName: 'jeans-1',
-                price: 60.00
+                imageName: 'men-leather-jacket',
+                price: 80.00
             }
         ]
     },
@@ -159,45 +159,45 @@ const MENS_DATA = {
         items: [
             {
                 id: 'm19',
-                title: 'Black shorts',
+                title: 'Beach shorts',
                 category: 'mens/shorts',
-                imageName: 'jeans-1',
-                price: 20.00
+                imageName: 'men-beach-shorts',
+                price: 15.00
             },
             {
                 id: 'm20',
                 title: 'Black shorts',
                 category: 'mens/shorts',
-                imageName: 'jeans-1',
-                price: 20.00
+                imageName: 'men-black-shorts',
+                price: 25.00
             },
             {
                 id: 'm21',
-                title: 'Black shorts',
+                title: 'Brown shorts',
                 category: 'mens/shorts',
-                imageName: 'jeans-1',
+                imageName: 'men-brown-shorts',
                 price: 20.00
             },
             {
                 id: 'm22',
-                title: 'Black shorts',
+                title: 'Casual brown shorts',
                 category: 'mens/shorts',
-                imageName: 'jeans-1',
-                price: 200.00
+                imageName: 'men-casualbrown-shorts',
+                price: 30.00
             },
             {
                 id: 'm23',
-                title: 'Black shorts',
+                title: 'Casual shorts',
                 category: 'mens/shorts',
-                imageName: 'jeans-1',
-                price: 60.00
+                imageName: 'men-casual-shorts',
+                price: 25.00
             },
             {
                 id: 'm24',
-                title: 'Black Jacket',
+                title: 'Black shorts',
                 category: 'mens/shorts',
-                imageName: 'jeans-1',
-                price: 60.00
+                imageName: 'men-dark-shorts',
+                price: 20.00
             }
         ]
     },
@@ -211,43 +211,43 @@ const MENS_DATA = {
                 id: 'm25',
                 title: 'Black shoes',
                 category: 'mens/shoes',
-                imageName: 'jeans-1',
+                imageName: 'men-black-shoes',
                 price: 20.00
             },
             {
                 id: 'm26',
-                title: 'Black shoes',
+                title: 'Casual shoes',
                 category: 'mens/shoes',
-                imageName: 'jeans-1',
-                price: 20.00
+                imageName: 'men-casual-shoes',
+                price: 35.00
             },
             {
                 id: 'm27',
-                title: 'Black shoes',
+                title: 'Red shoes',
                 category: 'mens/shoes',
-                imageName: 'jeans-1',
-                price: 20.00
+                imageName: 'men-red-shoes',
+                price: 40.00
             },
             {
                 id: 'm28',
-                title: 'Black shoes',
+                title: 'Brown shoes',
                 category: 'mens/shoes',
-                imageName: 'jeans-1',
-                price: 200.00
+                imageName: 'men-brown-shoes',
+                price: 35.00
             },
             {
                 id: 'm29',
-                title: 'Black shoes',
+                title: 'White shoes',
                 category: 'mens/shoes',
-                imageName: 'jeans-1',
-                price: 60.00
+                imageName: 'men-white-shoes',
+                price: 45.00
             },
             {
                 id: 'm30',
-                title: 'Black Jacket',
+                title: 'Casual shoes',
                 category: 'mens/shoes',
-                imageName: 'jeans-1',
-                price: 60.00
+                imageName: 'men-casual-shoes',
+                price: 50.00
             }
         ]
     },
@@ -259,45 +259,45 @@ const MENS_DATA = {
         items: [
             {
                 id: 'm31',
-                title: 'Black hats',
+                title: 'Black cap',
                 category: 'mens/hats',
-                imageName: 'jeans-1',
-                price: 20.00
+                imageName: 'men-black-cap',
+                price: 30.00
             },
             {
                 id: 'm32',
-                title: 'Black hats',
+                title: 'Casual cap',
                 category: 'mens/hats',
-                imageName: 'jeans-1',
+                imageName: 'men-casual-cap',
                 price: 20.00
             },
             {
                 id: 'm33',
-                title: 'Black hats',
+                title: 'Brown hat',
                 category: 'mens/hats',
-                imageName: 'jeans-1',
-                price: 20.00
+                imageName: 'men-brown-hat',
+                price: 25.00
             },
             {
                 id: 'm34',
-                title: 'Black hats',
+                title: 'Casual hat',
                 category: 'mens/hats',
-                imageName: 'jeans-1',
-                price: 200.00
+                imageName: 'men-casual-hat',
+                price: 25.00
             },
             {
                 id: 'm35',
-                title: 'Black hats',
+                title: 'White hat',
                 category: 'mens/hats',
-                imageName: 'jeans-1',
-                price: 60.00
+                imageName: 'men-white-hat',
+                price: 30.00
             },
             {
                 id: 'm36',
-                title: 'LASTLASTLAST',
+                title: 'Black hat',
                 category: 'mens/hats',
-                imageName: 'jeans-1',
-                price: 60.00
+                imageName: 'men-black-hat',
+                price: 35.00
             }
         ]
     }  

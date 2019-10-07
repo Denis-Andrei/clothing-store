@@ -19,13 +19,18 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            
-            
-            h3, p{
-                margin: 0;
-                padding: 5px;
+
+            .item-title{
+                @include ProductTitle;
                 letter-spacing: 1px;
-                font-weight: 500;
+                margin-top: 0;
+                
+            }
+
+            .item-price{
+                @include ProductPrice;
+                font-size: 1.2rem;
+                
             }
     }
 

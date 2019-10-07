@@ -11,9 +11,9 @@ const Footer = () =>(
 
             <div className="footer-customers">
                 <h4 className='footer-h4'>Customers Care</h4>
+                <Link className='option' to='/credentials'>Credentials</Link>
                 <Link className='option' to='/contact'>Contact Us</Link>
                 <Link className='option' to='/'>Careers</Link>
-                <Link className='option' to='/'>Shipping</Link>
                 <Link className='option' to='/'>Returns</Link>
                 <Link className='option' to='/'>Privacy & Policy</Link>
             </div>
